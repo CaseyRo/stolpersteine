@@ -828,7 +828,8 @@ def main() -> None:
 
     if settings.transport == "http":
         mcp.run(
-            transport="http",
+            transport="streamable-http",
+            stateless_http=True,
             host=settings.host,
             port=settings.port,
             allowed_hosts=[
