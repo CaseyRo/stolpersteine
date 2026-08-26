@@ -2,7 +2,7 @@
 name = "git-mcp-stolperfalle-nebula"
 description = "Stolperfalle — Experiential knowledge capture MCP server"
 deploy = true
-tags = ["mcp"]
+tags = ["cdit"]
 
 [stack.config]
 server_id = "nebula-1"
