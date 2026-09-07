@@ -7,7 +7,7 @@ license = "MIT"
 requires-python = ">=3.12"
 authors = [{ name = "Casey Romkes" }]
 dependencies = [
-    "fastmcp>=3.4.7,<4.0.0",  # 3.4.3+: allowed_hosts kwarg (Host-header guard)
+    "fastmcp>=3.4.7,<5.0.0",  # 3.4.3+: allowed_hosts kwarg (Host-header guard)
     "httpx>=0.28.0",
     "pydantic>=2.10",
     "pydantic-settings>=2.15.0",
