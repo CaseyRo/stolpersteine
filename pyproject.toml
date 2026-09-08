@@ -19,6 +19,7 @@ dependencies = [
     "python-multipart>=0.0.27",  # GHSA: DoS via unbounded multipart headers
     "mcp>=1.28.1",               # PYSEC-2026-3481/3482/3483 (via fastmcp-slim)
     "setuptools>=84.0.0",        # PYSEC-2026-3447 (via torch)
+    "transformers>=5.10.0",      # GHSA-xrqw-3rrv-vx5w (via sentence-transformers)
 ]
 
 [project.scripts]
